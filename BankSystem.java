@@ -1,6 +1,6 @@
 import java.util.*;
 
-// Customer Class
+
 class Customer {
     private int accountNumber;
     private String name;
@@ -8,7 +8,7 @@ class Customer {
     private String accountType;
     private String email;
 
-    // Constructor
+    
     Customer(int accountNumber, String name, double balance, String accountType, String email) {
         this.accountNumber = accountNumber;
         this.name = name;
@@ -17,7 +17,7 @@ class Customer {
         this.email = email;
     }
 
-    // Getters & Setters
+    
     public int getAccountNumber() {
          return accountNumber;
          }
